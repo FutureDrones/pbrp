@@ -23,7 +23,7 @@ touch links.txt
 echo "Recovery image on wetransfer: " >> links.txt
 transfer wet recovery.img  | grep Download >> links.txt
 echo "Flashable zip link:" >> links.txt 
-transfer wet SHRP_v3*.zip | grep Download >> links.txt 
+transfer wet PBRP-lancelot*.zip | grep Download >> links.txt 
 echo ""
 echo ""
 echo ""
